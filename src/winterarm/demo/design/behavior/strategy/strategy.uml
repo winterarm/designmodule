@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>winterarm.demo.design.behavior.strategy</OriginalElement>
+  <nodes>
+    <node x="6.0" y="0.0">winterarm.demo.design.behavior.strategy.Behavior</node>
+    <node x="0.0" y="80.0">winterarm.demo.design.behavior.strategy.KillByKnife</node>
+    <node x="15.0" y="235.0">winterarm.demo.design.behavior.strategy.Killer</node>
+    <node x="155.0" y="155.0">winterarm.demo.design.behavior.strategy.Main</node>
+    <node x="0.0" y="155.0">winterarm.demo.design.behavior.strategy.Character</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="winterarm.demo.design.behavior.strategy.KillByKnife" target="winterarm.demo.design.behavior.strategy.Behavior">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="winterarm.demo.design.behavior.strategy.Killer" target="winterarm.demo.design.behavior.strategy.Character">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="117.0" y="133.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>packageLocal</VISIBILITY>
+</Diagram>
+
