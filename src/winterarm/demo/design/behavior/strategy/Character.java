@@ -7,7 +7,7 @@ public abstract class Character {
 
     Behavior behavior;
 
-    public void doWhatICanDo(){
+    public void doWhatICanDo() {
         behavior.doSomething();
     }
 

@@ -38,12 +38,12 @@ public class ConcreteSubject implements Subject {
         notifyObservers();
     }
 
-    public void setState(String state){
+    public void setState(String state) {
         this.state = state;
         stateChanged();
     }
 
-    public String getState(){
+    public String getState() {
         return this.state;
     }
 

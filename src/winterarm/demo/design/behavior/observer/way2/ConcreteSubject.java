@@ -9,7 +9,7 @@ public class ConcreteSubject extends Observable {
 
     private String state;
 
-    public void stateChanged(){
+    public void stateChanged() {
         setChanged();
         notifyObservers();
     }

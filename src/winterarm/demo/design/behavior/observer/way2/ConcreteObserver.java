@@ -12,14 +12,14 @@ public class ConcreteObserver implements Observer {
 
     private String state;
 
-    public ConcreteObserver(Observable o){
+    public ConcreteObserver(Observable o) {
         this.observable = o;
         o.addObserver(this);
     }
 
     @Override
     public void update(Observable o, Object arg) {
-        if(o instanceof ConcreteSubject){
+        if (o instanceof ConcreteSubject) {
             ConcreteSubject subject = (ConcreteSubject) o;
             System.out.println("state is changed from " + this.state + " to " + subject.getState());
             this.state = subject.getState();

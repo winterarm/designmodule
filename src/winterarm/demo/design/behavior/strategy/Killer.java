@@ -5,7 +5,7 @@ package winterarm.demo.design.behavior.strategy;
  */
 public class Killer extends Character {
 
-    public Killer(){
+    public Killer() {
         behavior = new KillByKnife();
     }
 }
